@@ -1,10 +1,11 @@
 import React from "react";
 
-const ProductCard = ({ name, price }) => {
+const ProductCard = ({ name, price, onAddToCart }) => {
   return (
-    <div className="product-card">
+    <div>
       <h2>{name}</h2>
       <p>Price: ${price}</p>
+      <button onClick={onAddToCart}>Add to Cart</button>
     </div>
   );
 };

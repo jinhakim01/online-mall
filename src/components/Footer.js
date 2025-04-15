@@ -10,7 +10,7 @@ const Footer = () => {
         textAlign: "center",
       }}
     >
-      <p>© 2024 Online Mall. All rights reserved.</p>
+      <p>© 2025 Online Mall. All rights reserved.</p>
     </footer>
   );
 };
